@@ -1,0 +1,237 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: hsl(30, 54%, 90%);
+    width: 1450px;
+    max-height: 2000px;
+    margin-top: 110px;
+    margin-bottom: 110px;
+}
+
+.container {
+    background-color: white;
+    width: 720px;
+    height: 1825px;
+    border-radius: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 1px;
+}
+
+.photo {
+    height: 300px;
+    margin: 32px;
+    border-radius: 15px;
+}
+
+.sarlavha {
+    position: relative;
+    top: -32px;
+    padding-top: 30px;
+    margin: 35px;
+}
+
+.h1 {
+    position: relative;
+    top: -35px;
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 35px;
+    font-style: normal;
+    text-align: left;
+}
+
+.p {
+    position: relative;
+    top: -16px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    color: hsl(24, 5%, 18%);
+    line-height: 23px;
+}
+
+.time {
+    position: relative;
+    top: -37px;
+    background-color: hsl(330, 100%, 98%);
+    height: 186px;
+    margin: 34px;
+    border-radius: 13px;
+    line-height: 25px;
+}
+
+#ul {
+    position: relative;
+    top: 27px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.time1 {
+    color: hsl(24, 5%, 18%);
+}
+
+.time2 {
+    color: hsl(24, 5%, 18%);
+}
+
+.time3 {
+    color: hsl(24, 5%, 18%);
+}
+
+.time li {
+    position: relative;
+    left: 37px;
+    top: 4px;
+    margin: 12px;
+    padding-left: 20px;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 15px;
+}
+
+.time li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+.h3 {
+    position: relative;
+    top: 20px;
+    padding-left: 26px;
+    color: hsl(332, 51%, 32%);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+}
+
+#ul2 {
+    position: relative;
+    top: -50px;
+    left: 40px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+#ul2 li {
+    position: relative;
+    left: 14px;
+    top: 5px;
+    padding-left: 19px;
+    margin: 11px;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+#ul2 li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.line {
+    position: relative;
+    top: -35px;
+    margin-left: 38px;
+    margin-right: 38px;
+    border: 1px hsl(30, 18%, 87%) solid;
+}
+
+.instruction {
+    margin-right: 60px;
+}
+
+#ol {
+    position: relative;
+    left: 40px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 30px;
+    line-height: 55px;
+}
+
+#ol li {
+    position: relative;
+    left: 14px;
+    top: 5px;
+    padding-left: 19px;
+    margin: 11px;
+    color: black;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+}
+
+#ol li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+.line1 {
+    position: relative;
+    top: 20px;
+    margin-left: 38px;
+    margin-right: 38px;
+    border: 1px hsl(30, 18%, 87%) solid;
+}
+
+.h2 {
+    position: relative;
+    top: 50px;
+    margin-left: 38px;
+    color: hsl(14, 45%, 36%);
+    font-family: "Young Serif", serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 30px;
+    font-size: 27px;
+}
+
+.p {
+    position: relative;
+    top: 59px;
+    margin-left: 38px;
+}
+
+table {
+    position: absolute;
+    top: 100px;
+    border-collapse: collapse;
+    table-layout: fixed;
+    width: 100%;
+}
+
+.nutrients {
+    position: relative;
+    padding-left: 2.5%;
+}
+
+.amount {
+    position: relative;
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
